@@ -1,8 +1,8 @@
-import '../models/personality.dart';
-import '../models/answer.dart';
-import '../models/question.dart';
+import 'package:flutter_application_1/models/question.dart';
+import 'package:flutter_application_1/models/answer.dart';
+import 'package:flutter_application_1/models/personality.dart';
 
-final List<Question> questions = [
+const questions = [
   Question(
     text: 'How do you approach a difficult decision?',
     answers: [
@@ -78,7 +78,7 @@ final List<Question> questions = [
         personality: Personality.Feeler,
       ),
       Answer(
-        text: "Planning tomorrow's tasks",
+        text: 'Planning tomorrow\'s tasks',
         personality: Personality.Planner,
       ),
       Answer(
@@ -88,22 +88,22 @@ final List<Question> questions = [
     ],
   ),
   Question(
-    text: "You're most comfortable when...",
+    text: 'You\'re most comfortable when...',
     answers: [
       Answer(
         text: 'Things make logical sense',
         personality: Personality.Thinker,
       ),
       Answer(
-        text: "Everyone is getting along",
+        text: 'Everyone is getting along',
         personality: Personality.Feeler,
       ),
       Answer(
-        text: "There's a clear structure",
+        text: 'There\'s a clear structure',
         personality: Personality.Planner,
       ),
       Answer(
-        text: "You're free to try new things",
+        text: 'You\'re free to try new things',
         personality: Personality.Adventurer,
       ),
     ],

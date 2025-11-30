@@ -1,8 +1,8 @@
-import 'answer.dart';
+import 'package:flutter_application_1/models/answer.dart';
 
 class Question {
   final String text;
   final List<Answer> answers;
 
-  Question({required this.text, required this.answers});
+  const Question({required this.text, required this.answers});
 }
